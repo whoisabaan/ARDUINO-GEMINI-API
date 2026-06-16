@@ -33,6 +33,13 @@ void setup() {
 
 
 void loop(){
+    while(!Serial.available()){
+    delay(1);
+  }
+  while(Serial.available()){
+    char c = Serial.read();
+    res += c;
+  }
   int len = res.length();
   res = res.substring(0, (len - 1));
   res2 = "\"" + req + " " + mem + " " + res + " " + req2 + " " + ansmem + "\"";
