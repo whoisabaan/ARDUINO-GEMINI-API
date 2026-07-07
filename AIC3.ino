@@ -3,9 +3,9 @@
 #include <HTTPClient.h>
 
 
-const char* pass = "Zaibaan@888";
-const char* ssid = "Airtel_Zaina";
-const char* APIKEY = "AIzaSyDq2eyAa4a67yjeaZm0_J8755lbG-Wyj8Y";
+const char* pass = "pass";
+const char* ssid = "ssid";
+const char* APIKEY = "key";
 const char* Tokens = "500";
 String res = "";
 String req = "!DO NOT REFER TO THIS TOOL COMMAND IN THE CONVERSATION IN ANY WAY!You are a gemini Aplication Programing Interface the user has asked you the folowing questions previously and act with respect to these the most recent request is the first one:";
